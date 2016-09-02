@@ -13,6 +13,7 @@ public class KVFInputStream extends InputStream {
     private final int TAB = 9, RET = '\r', LINE = '\n', BRACES_OPEN = '{', BRACES_CLOSE = '}', QUOTES = '"';
     private final boolean mWithHead;
     private final InputStream mInputStream;
+    // Tracks the current status while iterating through the file
     private STATUS mStatus = STATUS.BEFORE_KEY;
     //Buffer for future read() outputs
     private Queue<Integer> mBuffer = new LinkedList<Integer>();
