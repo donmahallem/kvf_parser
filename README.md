@@ -9,4 +9,4 @@ One option is to use the TypeAdapters provided in the gson package folder.
 
 #GSON
 A rough Gson TypeAdapter implementation is provided which handles the repeating key names from the KvfInputStream
-It features eather pure parsing of the values as String OR you can choose to let it convert String-Values as Integers and/or Floats if it detects those.
+It features eather pure parsing of the values as String OR you can choose to let it convert String-Values as Integers and/or Floats if it detects those(adds ~6% conversion time).
