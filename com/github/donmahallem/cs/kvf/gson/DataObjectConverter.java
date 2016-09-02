@@ -8,9 +8,6 @@ import com.google.gson.stream.JsonWriter;
 
 import java.io.IOException;
 
-/**
- * Created by windo on 25.08.2016.
- */
 public class DataObjectConverter extends TypeAdapter<DataObject> {
 
     private final boolean mNumberConversion;
