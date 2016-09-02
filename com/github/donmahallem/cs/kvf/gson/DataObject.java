@@ -2,9 +2,6 @@ package com.github.donmahallem.cs.kvf.gson;
 
 import java.util.HashMap;
 
-/**
- * Created by windo on 22.08.2016.
- */
 public class DataObject {
 
     HashMap<String,Object> mData=new HashMap<>();
